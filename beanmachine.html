@@ -1,0 +1,115 @@
+<!doctype>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Starbuzz</title>
+  <link rel="icon" href="images/icon.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Chelsea+Market&family=Open+Sans:wght@600&family=Pacifico&display=swap&family=Bellota:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bangers|Cinzel|Courgette|Exo|Permanent+Marker|Poiret+One|Quicksand|Righteous|Uncial+Antiqua&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+  <header class="top">
+    <a id="headerlogo" href="index.html"><img src="images/eLogoW.png" alt="Starbuzz Coffee header logo image">
+    </a>
+    <img id="headerSlogan" src="images/headerSlogan.gif" alt="Providing all the caffeine you need to power your life.">
+  </header>
+
+  <h1 class="machineh1">The Starbuzz Bean Machine</h1>
+  <h2 class="machineh2">Fill out the form below and click submit to order</h2>
+
+  <form action="" method="">
+
+    <div class="tableRow">
+      <p>Choose your beans:
+        <select name="beans" class="editedform">
+          <option value="House Blend">House Blend</option>
+          <option value="Bolivia">Shade Grown Bolivia Superemo</option>
+          <option value="Guatemala">Organic Guatemala</option>
+          <option value="Kenya">Kenya</option>
+        </select>
+      </p>
+    </div>
+
+    <div class="tableRow">
+      <p>Type: <br>
+        <input type="radio" name="beantype" value="whole" class="editedform">Whole Bean <br>
+        <input type="radio" name="beantype" value="ground" class="editedform" checked>Ground
+      </p>
+    </div>
+
+    <div class="tableRow">
+      <p>Number of bags: <input class="editedform" type="number" name="bags" min="1" max="10"></p>
+      <p>Must arrive by: <input class="editedform" type="date" name="date"></p>
+    </div>
+
+    <div class="tableRow">
+      <p>Gift: <br>
+        <input class="editedform" type="checkbox" name="extras[]" value="giftwrap">Gift Wrap <br>
+        <input class="editedform" type="checkbox" name="extras[]" value="catalog" checked>Include Catalog with order<br>
+      </p>
+    </div>
+
+    <div class="tableRow">
+      <p class="heading">Ship to: </p>
+      <p></p>
+    </div>
+
+    <div class="tableRow">
+      <p> Name: </p>
+      <p> <input class="editedform" type="text" name="name" value=""> </p>
+    </div>
+
+    <div class="tableRow">
+      <p> Address: </p>
+      <p> <input class="editedform" type="text" name="address" value=""> </p>
+    </div>
+
+    <div class="tableRow">
+      <p> City: </p>
+      <p> <input class="editedform" type="text" name="city" value=""> </p>
+    </div>
+
+    <div class="tableRow">
+      <p> State: </p>
+      <p> <input class="editedform" type="text" name="state" value=""> </p>
+    </div>
+
+    <div class="tableRow">
+      <p> Zip: </p>
+      <p> <input class="editedform" type="text" name="zip" value=""> </p>
+    </div>
+
+    <div class="tableRow">
+      <p> Phone: </p>
+      <p> <input class="editedform" type="tel" name="phone" value=""> </p>
+    </div>
+
+    <div class="tableRow">
+      <p> Customer Comments: </p>
+      <p>
+        <textarea class="editedform" name="comments" rows="10" cols="48"></textarea>
+      </p>
+    </div>
+
+    <div class="tableRow">
+      <p></p>
+      <p> <input class="editedform submitmate" type="submit" value="Order Now"> </p>
+    </div>
+
+  </form>
+
+  <p class="beanp">Click on Starbuzz logo to return back to home page 👆</p>
+
+  <footer>
+    &copy; 2020, Starbuzz Coffee
+    <br>
+    All trademarks and registered trademarks appearing on this site are the property of respective owners
+  </footer>
+</body>
+
+</html>
